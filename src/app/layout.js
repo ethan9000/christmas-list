@@ -27,7 +27,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
           href="https://use.typekit.net/fnk8dlt.css"
         ></link>
-        <meta property="og:image" content="<generated>" />
+        <meta
+          property="og:image"
+          content="https://ethanchristmas.com/opengraph-image.png"
+        />
       </head>
       <ConvexClientProvider>
         <body className="bg-[#efe9e1]">{children}</body>
