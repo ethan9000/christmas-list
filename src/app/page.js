@@ -46,11 +46,13 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-6 font-handwriting ">
               {category.name}
             </h2>
-            {gifts
-              ?.filter((gift) => gift.category === category.name)
-              .map((gift, index) => (
-                <GiftCard key={gift._id} gift={gift} index={index} />
-              ))}
+            <div className="grid grid-cols-1 gap-6">
+              {gifts
+                ?.filter((gift) => gift.category === category.name)
+                .map((gift, index) => (
+                  <GiftCard key={gift._id} gift={gift} index={index} />
+                ))}
+            </div>
           </div>
         ))}
       </div>
