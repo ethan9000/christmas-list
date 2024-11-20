@@ -40,7 +40,7 @@ export default function Home() {
         ))}
         <button onClick={() => setActiveCategories(allCategories)}>All</button>
       </div>
-      <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
+      <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto mb-10">
         {activeCategories?.map((category) => (
           <div key={category._id}>
             <h2 className="text-4xl font-bold mb-6 font-handwriting ">
