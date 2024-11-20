@@ -29,7 +29,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-##Connect to Convex
+## Connect to Convex
 
 I used Convex to store the data for this project. To connect to Convex, I used the `convex/react` package. To do it yourself go to [Convex](https://www.convex.dev/) and create an account. Then create a new project and follow the instructions to connect your project to your repository.
 
