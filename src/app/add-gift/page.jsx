@@ -73,7 +73,7 @@ const AddGift = () => {
   return (
     <div>
       <h1>Add Gift Idea</h1>
-      <div className="flex justify-center items-center h-screen gap-10">
+      <div className="flex flex-col lg:flex-row justify-center items-center min-h-screen gap-10">
         <Card className="w-[350px]">
           <CardHeader>
             <CardTitle>Create Gift</CardTitle>
