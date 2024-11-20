@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4">
       <h1 className="text-6xl lg:text-7xl text-[#5d1c34] font-bold text-center my-10 font-handwriting">
-        Ethan's Christmas List
+        Ethan's Wish List
       </h1>
       <div className="flex flex-wrap gap-3 justify-center mb-10">
         {categories?.map((category) => (
